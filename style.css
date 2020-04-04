@@ -1,0 +1,19 @@
+/* impostazioni generali pagina */
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 65vw;
+  height:95vh;
+  margin: auto;
+}
+
+.quadrato{
+  border: 1px solid grey;
+  width: calc(60vw / 8);
+  height:calc(95vh / 8);
+}
